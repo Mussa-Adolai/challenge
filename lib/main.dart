@@ -27,32 +27,33 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 20.0, horizontal: 0.0),
                 color: Colors.red,
               ),
+
               //SizedBox(width: 10.0),
-              // ignore: avoid_unnecessary_containers
-              Container(
-                // color: Colors.white,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  // ignore: prefer_const_literals_to_create_immutables
-                  children: <Widget>[
-                    Container(
-                      // margin:
-                      //     EdgeInsets.symmetric(horizontal: 40.0, vertical: 0.0),
-                      height: 100.0,
-                      width: 100.0,
-                      color: Colors.yellow,
-                    ),
-                    Container(
-                      // margin:
-                      //     EdgeInsets.symmetric(horizontal: 40.0, vertical: 0.0),
-                      height: 100.0,
-                      width: 100.0,
-                      color: Colors.green,
-                    ),
-                  ],
-                ),
+              // color: Colors.white,
+
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                // ignore: prefer_const_literals_to_create_immutables
+                children: <Widget>[
+                  Container(
+                    // margin:
+                    //     EdgeInsets.symmetric(horizontal: 40.0, vertical: 0.0),
+                    height: 100.0,
+                    width: 100.0,
+                    color: Colors.yellow,
+                  ),
+                  Container(
+                    // margin:
+                    //     EdgeInsets.symmetric(horizontal: 40.0, vertical: 0.0),
+                    height: 100.0,
+
+                    width: 100.0,
+                    color: Colors.green,
+                  ),
+                ],
               ),
+
               //SizedBox(width: 10.0),
               Container(
                 color: Colors.blue,
